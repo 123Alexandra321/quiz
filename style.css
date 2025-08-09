@@ -1,0 +1,47 @@
+body {
+  font-family: sans-serif;
+  background: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+}
+
+.quiz-container {
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  max-width: 600px;
+  box-shadow: 0 0 10px #aaa;
+  width: 100%;
+}
+
+#intrebare {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+#raspunsuri button {
+  display: block;
+  margin-bottom: 10px;
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button.corect {
+  background-color: #d1e7dd;
+}
+
+button.gresit {
+  background-color: #f8d7da;
+}
+
+#rezultat {
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+
+
